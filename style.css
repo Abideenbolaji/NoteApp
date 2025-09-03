@@ -1,0 +1,58 @@
+:root {
+  --font-primary: Verdana;
+  --font-secondary: Tahoma;
+  --primary-color-background: #121212;
+  --color-button: #2979ff;
+  --color-button-option: #4caf50;
+  --text-color: #e0e0e0;
+  --delete-color: #e53935;
+}
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background: #202020;
+}
+
+.container {
+  width: 40%;
+  min-height: 100vh;
+  background: var(--primary-color-background);
+  padding: 20px;
+  margin: 0 auto;
+}
+.container h1 {
+  font-size: 30px;
+  color: #fff;
+  font-family: var(--font-secondary);
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container h1 img {
+  width: 30px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.container {
+}
+.noteContainer p {
+  max-width: 450px;
+  min-height: 150px;
+  border: 1px solid #fff;
+  color: gray;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.noteContainer img {
+  position: absolute;
+  bottom: 12px;
+  right: 10px;
+  width: 20px;
+  cursor: pointer;
+}
